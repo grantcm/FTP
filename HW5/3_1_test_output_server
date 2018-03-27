@@ -1,0 +1,15 @@
+220 COMP 431 FTP server ready.
+USER anonymous
+331 Guest access OK, send password.
+PASS guest@
+230 Guest login OK.
+SYST
+215 UNIX Type: L8.
+TYPE I
+200 Type set to I.
+PORT 152,2,129,144,37,158
+200 Port command successful (152.2.129.144,9630).
+RETR existing_file
+550 File not found or access denied.
+QUIT
+221 Goodbye.

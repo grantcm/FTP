@@ -1,0 +1,13 @@
+User kevin!!??
+pass password12345
+tyPe A
+sYSt
+PorT 152,25,124,131,3f1,144
+rEtr still_relative
+PorT 152,25,124,131,31,144
+PorT 444,25,124,131,31,144
+rEtr still_relative
+PorT 152,25,124,131,31,144
+PorT 44,25,124,131,31,1443
+PorT 444,25,124,131,31,144
+QUIT

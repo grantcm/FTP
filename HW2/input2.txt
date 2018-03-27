@@ -1,0 +1,12 @@
+PorT 152,25,124,131,31,144
+User Jasleen
+User user
+pass password12345
+tyPe A
+sYSt
+PorT 152,25,124,131,31
+PorT 152,25,124,131,31,144
+rEtr still/relative/does_not_exist
+rEtr relative
+dejar
+QUIT

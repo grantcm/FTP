@@ -1,0 +1,9 @@
+CONNECT classroom.cs.unc.edu 9000
+GET pictures/jasleen.jpg
+GET pictures/unc.jpg
+CONNECT classroom.cs.unc.edu 21
+GET index.html
+GET fileÿ
+CONNECT classroomÿ.cs.unc.edu
+CONNECT classroom.cs.unc.edu 65536
+QUIT

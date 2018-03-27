@@ -1,0 +1,4 @@
+CONNECT classroom.cs.unc.edu 9631
+GET file¥
+GET doesnotexist
+QUIT

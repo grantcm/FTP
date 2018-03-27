@@ -1,0 +1,7 @@
+CONNECT classroo.cs.unc.edu 9631
+CONNECT accepted for FTP server at host classroo.cs.unc.edu and port 9631
+CONNECT failed
+GET doesnotexist
+ERROR -- expecting CONNECT
+QUIT
+ERROR -- expecting CONNECT

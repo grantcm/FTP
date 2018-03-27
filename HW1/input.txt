@@ -1,0 +1,33 @@
+USER jasleen
+uSeR jasleen
+usr jasleen
+USERjasleen
+user
+USER jasl*n
+USER jaslee\u00a5
+USER           jasleen
+USER ja sl een 
+PASS 12@456
+PASS 12*456
+TYPE A
+TYPE I
+TYPE B
+SYST
+SYST jasleen
+NOOP
+NOP
+QUIT
+quit
+quit 
+quit
+user grant
+pass gr\u0504
+qui
+quit
+user  
+pass  
+quitquit
+user
+user 
+quit 
+

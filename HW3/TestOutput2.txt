@@ -1,0 +1,14 @@
+220 COMP 431 FTP server ready.
+FTP reply 220 accepted.  Text is : COMP 431 FTP server ready.
+331 Guest access OK, send password.
+FTP reply 331 accepted.  Text is : Guest access OK, send password.
+230Guest login OK.
+ERROR -- reply-code
+Port command successful (152.2.131.205,8080).
+ERROR -- reply-code
+650 File status okay.
+ERROR -- reply-code
+220 COMP 431 FTP server ready.
+ERROR -- <CRLF>
+220 COMP 431 ÿ FTP server ready.
+ERROR -- reply-text

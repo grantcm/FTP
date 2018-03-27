@@ -1,0 +1,29 @@
+220 COMP 431 FTP server ready.
+sYSt
+530 Not logged in.
+User kevin!!??
+331 Guest access OK, send password.
+pass password12345
+230 Guest login OK.
+tyPe B
+501 Syntax error in parameter.
+PorT 152,255,124,131,31,144
+200 Port command successful (152.255.124.131,8080).
+rEtr still_relative
+150 File status okay.
+250 Requested file action completed.
+PorT 152,25,124,131,3f1,144
+501 Syntax error in parameter.
+sYSt arg500 Syntax error, command unrecognized.
+nrEtr st ill_relative
+500 Syntax error, command unrecognized.
+PorT 152 , 25,124,131,31,144
+501 Syntax error in parameter.
+PorT 44,25,124,131,31,1443
+501 Syntax error in parameter.
+pass password1   2345
+503 Bad sequence of commands.
+pass 
+501 Syntax error in parameter.
+QUIT
+200 Command OK.

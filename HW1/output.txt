@@ -1,0 +1,60 @@
+USER jasleen
+Command ok
+uSeR jasleen
+Command ok
+usr jasleen
+ERROR -- command
+USERjasleen
+ERROR -- command
+user
+ERROR -- command
+USER jasl*n
+Command ok
+USER jaslee\u00a5
+ERROR -- username
+USER           jasleen
+Command ok
+USER ja sl een 
+Command ok
+PASS 12@456
+Command ok
+PASS 12*456
+Command ok
+TYPE A
+Command ok
+TYPE I
+Command ok
+TYPE B
+ERROR -- type-code
+SYST
+Command ok
+SYST jasleen
+ERROR -- CRLF
+NOOP
+Command ok
+NOP
+ERROR -- command
+QUIT
+Command ok
+quit
+Command ok
+quit 
+ERROR -- CRLF
+quit
+ERROR -- CRLF
+user grant
+Command ok
+pass gr\u0504
+ERROR -- password
+qui
+ERROR -- command
+quit
+ERROR -- CRLF
+user  
+ERROR -- username
+pass  
+ERROR -- password
+quit
+ERROR -- CRLF
+quit
+Command ok

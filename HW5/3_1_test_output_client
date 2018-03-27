@@ -1,0 +1,21 @@
+CONNECT classroom.cs.unc.edu 9631
+CONNECT accepted for FTP server at host classroom.cs.unc.edu and port 9631
+FTP reply 220 accepted. Text is: COMP 431 FTP server ready.
+USER anonymous
+FTP reply 331 accepted. Text is: Guest access OK, send password.
+PASS guest@
+FTP reply 230 accepted. Text is: Guest login OK.
+SYST
+FTP reply 215 accepted. Text is: UNIX Type: L8.
+TYPE I
+FTP reply 200 accepted. Text is: Type set to I.
+GET existing_file
+GET accepted for existing_file
+PORT 152,2,129,144,37,158
+FTP reply 200 accepted. Text is: Port command successful (152.2.129.144,9630).
+RETR existing_file
+FTP reply 550 accepted. Text is: File not found or access denied.
+QUIT
+QUIT accepted, terminating FTP client
+QUIT
+FTP reply 221 accepted. Text is: Goodbye.

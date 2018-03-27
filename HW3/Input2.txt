@@ -1,0 +1,8 @@
+220 COMP 431 FTP server ready.
+331 Guest access OK, send password.
+230Guest login OK.
+Port command successful (152.2.131.205,8080).
+650 File status okay.
+220 COMP 431 FTP server ready.
+220 COMP 431 ÿ FTP server ready.
+220 Casdlfkjasldkfj asldkfjalskdjflaksj.

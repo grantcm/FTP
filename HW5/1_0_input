@@ -1,0 +1,3 @@
+CONNECT classroo.cs.unc.edu 9631
+GET doesnotexist
+QUIT

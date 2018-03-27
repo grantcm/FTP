@@ -1,0 +1,16 @@
+220 COMP 431 FTP server ready.
+User kevin!!??
+331 Guest access OK, send password.
+pass password12345
+230 Guest login OK.
+tyPe A
+200 Type set to A.
+sYSt
+215 UNIX Type: L8.
+PorT 152,25,124,131,31,144
+200 Port command successful (152.25.124.131,8080).
+rEtr /still_relative
+150 File status okay.
+250 Requested file action completed.
+QUIT
+200 Command OK.

@@ -1,0 +1,26 @@
+220 COMP 431 FTP server ready.
+PorT 152,25,124,131,31,144
+530 Not logged in.
+User Jasleen
+331 Guest access OK, send password.
+User user
+331 Guest access OK, send password.
+pass password12345
+230 Guest login OK.
+tyPe A
+200 Type set to A.
+sYSt
+215 UNIX Type: L8.
+PorT 152,25,124,131,31
+501 Syntax error in parameter.
+PorT 152,25,124,131,31,144
+200 Port command successful (152.25.124.131,8080).
+rEtr still/relative/does_not_exist
+550 File not found or access denied.
+rEtr relative
+150 File status okay.
+250 Requested file action completed.
+dejar
+500 Syntax error, command unrecognized.
+QUIT
+200 Command OK.

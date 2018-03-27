@@ -1,0 +1,33 @@
+CONNECT classroom.cs.unc.edu 9000
+CONNECT accepted for FTP server at host classroom.cs.unc.edu and port 9000
+USER anonymous
+PASS guest@
+SYST
+TYPE I
+GET pictures/jasleen.jpg
+GET accepted for pictures/jasleen.jpg
+PORT 152,2,129,144,31,64
+RETR pictures/jasleen.jpg
+GET pictures/unc.jpg
+GET accepted for pictures/unc.jpg
+PORT 152,2,129,144,31,65
+RETR pictures/unc.jpg
+CONNECT classroom.cs.unc.edu 21
+CONNECT accepted for FTP server at host classroom.cs.unc.edu and port 21
+USER anonymous
+PASS guest@
+SYST
+TYPE I
+GET index.html
+GET accepted for index.html
+PORT 152,2,129,144,31,64
+RETR index.html
+GET fileÿ
+ERROR -- pathname
+CONNECT classroomÿ.cs.unc.edu
+ERROR -- server-host
+CONNECT classroom.cs.unc.edu 65536
+ERROR -- server-port
+QUIT
+QUIT accepted, terminating FTP client
+QUIT

@@ -1,0 +1,37 @@
+220 COMP 431 FTP server ready.
+PorT 152,25,124,131,31,144
+530 Not logged in.
+User Jasleen
+331 Guest access OK, send password.
+User user
+331 Guest access OK, send password.
+pass password12345
+230 Guest login OK.
+pass password12345
+503 Bad sequence of commands.
+pass password12345
+503 Bad sequence of commands.
+User user
+331 Guest access OK, send password.
+pass password1234Â5
+501 Syntax error in parameter.
+User user
+331 Guest access OK, send password.
+pass password12345
+501 Syntax error in parameter.
+tyPe A
+503 Bad sequence of commands.
+sYSt
+503 Bad sequence of commands.
+PorT 152,25,124,131,31
+501 Syntax error in parameter.
+PorT 152,25,124,131,31,144
+503 Bad sequence of commands.
+rEtr still/relative/does_not_exist
+503 Bad sequence of commands.
+rEtr relative
+503 Bad sequence of commands.
+dejar
+500 Syntax error, command unrecognized.
+QUIT
+200 Command OK.
